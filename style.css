@@ -1,0 +1,105 @@
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+.row{
+	border: 1px solid  #555;
+	padding: 20px;
+	background-color:#555;
+	color: white;
+}
+.container{
+	width: 80%;
+	margin: 0 20%;
+	display: flex;
+	justify-content: space-between
+}
+a{
+	font-size: 22px;
+	padding: 0 15px;
+	text-decoration: none;
+	color: white;
+}
+a:hover{
+	text-decoration:overline;
+	cursor:pointer;
+}
+.box{
+	display: flex;
+	justify-content: center;
+}
+.video-container{
+    position: absolute;
+    top: 0%;
+    left: 0;
+    width: 100%;
+}
+.video{
+    position: absolute;
+    top: 10%;
+    left: 0;
+    width: 100%;
+}
+.about_banner p{
+	font-size: 20px;
+	 font-family:inherit;
+}
+.rowas{
+	width: 40%;
+}
+audio{
+	background-color: blue;
+}
+.h1{
+	color: coral;
+}
+
+
+#header {
+	background-color: #35424a;
+	border-bottom: 0px solid coral;
+	margin-bottom: 15px;
+}
+#header h1 {
+	color: #fff;
+	font-family: sans-serif;
+	margin: 25px 0;
+	display: inline-block;
+
+}
+#header .logo {
+	 color: coral;
+}
+.navbar{
+	float: right;
+}
+.navbar  li {
+	display: inline;
+}
+.navbar li a{
+	text-decoration: none;
+	color: #fff;
+	font-family: sans-serif;
+	padding: 25px 15px;
+	display: inline-block;
+}
+.navbar li a:hover{
+	color: coral;
+}
+.row12{
+	display: block;
+	
+}
+.class{
+	width: 100%;
+	background-color: #323;
+	color: #fff;
+	padding: 20px;
+	font-family:monospace;
+}
+.card{
+	width: 100%;
+}
